@@ -1,0 +1,14 @@
+Assumptions for the AIES CCP Project:
+
+1. The input dataset used for training and testing the AI model is preprocessed, clean, and free of missing or corrupted data.
+2. The classes in the dataset (e.g., spam and non-spam emails) are reasonably balanced to ensure model performance.
+3. The computing environment has Python 3.8 or higher installed along with all required libraries such as scikit-learn, pandas, numpy, matplotlib, and seaborn.
+4. The AI model training and evaluation are performed on a machine with sufficient RAM and processing power to handle the dataset efficiently.
+5. The user will provide inputs in the expected format without introducing malformed or invalid data.
+6. Internet connectivity is available during the setup phase to download necessary libraries and dependencies.
+7. The video explanation uploaded on YouTube is accessible and clearly demonstrates the project implementation and results.
+8. The project report includes all necessary details on algorithms, justifications, and performance metrics as required by the CCP guidelines.
+9. The dataset labels are correct. 
+10. All messages are in English. 
+11. Stopwords do not provide distinguishing power and are removed. 
+12. Features (words) are independent given the class — a key assumption of Naive Bayes.
